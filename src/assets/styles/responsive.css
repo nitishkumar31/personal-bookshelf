@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+  /* Search Section Styles  */
+  .searchBackground {
+    padding: 2rem 1rem;
+  }
+  .searchBackground .para {
+    font-size: 1rem;
+    width: 70%;
+  }
+  .searchBackground search form input {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* Header Styles */
+  header .brandLogo {
+    scale: 0.8;
+  }
+  header nav {
+    margin: 0 0.5rem;
+    gap: 1.2rem;
+    font-size: 1rem;
+  }
+  /* Search Section Styles  */
+  .searchBackground {
+    padding: 1.5rem 1rem;
+  }
+  .searchBackground h3 {
+    text-align: center;
+  }
+  .searchBackground .para {
+    text-align: center;
+    width: 100%;
+  }
+  .searchBackground search form input {
+    width: 90vw;
+  }
+}
